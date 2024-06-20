@@ -13,6 +13,9 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
+ let numstr = num.toString();
+ let numinvertido = numstr.split('').reverse().join('');
+ return numstr === numinvertido;
 
 }
 
